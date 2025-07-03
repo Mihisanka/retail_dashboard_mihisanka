@@ -1,0 +1,72 @@
+body { 
+  font-family: Arial; 
+  margin: 0; 
+  padding: 0; 
+  background: #f4f4f4; 
+}
+h1, h2 { 
+  color: #333; 
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 60px; 
+  z-index: 1000;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 25px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: background 0.2s;
+}
+nav a:hover {
+  background: #444;
+}
+header {
+  margin-left: 200px;
+  padding: 20px 0 0 0;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  width: calc(100% - 200px);
+  z-index: 1100;
+}
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 20px; 
+  background: #fff; 
+}
+th, td { 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+input[type="text"], 
+input[type="password"] { 
+  padding: 8px; 
+  width: 200px; 
+  margin: 10px 0; 
+}
+button { 
+  padding: 8px 12px; 
+  background: #319DEB; 
+  color: #fff; 
+  border: none; 
+  cursor: pointer; 
+}
+form { margin-bottom: 20px; }
+.main-content {
+  margin-left: 200px;
+  margin-top: 80px; 
+  padding: 20px;
+}
